@@ -1,0 +1,44 @@
+.lectureRow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 96%;
+  margin-left: 2%;
+  user-select: none;
+  background-color: #eee
+}
+
+.sideBarModule{
+  background-color: #EA006533;
+  padding: 20px 0px;
+}
+
+.lectureRow:hover{
+  background-color: #dddd
+}
+
+.chapter{
+  cursor: pointer;
+}
+
+.App{
+  display: flex;
+}
+
+.sidebar{
+  width:25%;
+  background: linear-gradient(to bottom right, deeppink, darkorange);
+  border: 1px solid black;
+  height:700;
+  position:fixed
+}
+
+.poo{
+  height: 80px;
+}
+.poo:nth-child(even) {
+  background-color: #EA006533;
+  padding: 20px 0px;
+
+}
+
